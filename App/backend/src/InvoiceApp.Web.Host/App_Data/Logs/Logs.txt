@@ -1,0 +1,484 @@
+DEBUG 2019-12-17 22:06:10,753 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-17 22:06:11,066 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-17 22:06:11,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.Web.Host.Startup.InvoiceAppWebHostModule, InvoiceApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppWebCoreModule, InvoiceApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppApplicationModule, InvoiceApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppCoreModule, InvoiceApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.EntityFrameworkCore.InvoiceAppEntityFrameworkModule, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:11,117 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-17 22:06:11,426 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-17 22:06:11,427 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-17 22:06:11,427 [1    ] o.Configuration.LanguageManagementConfig - Converted InvoiceApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-17 22:06:11,427 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-17 22:06:11,904 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InvoiceApp.EntityFrameworkCore.InvoiceAppDbContext, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 22:06:13,351 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-17 22:06:13,398 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-17 22:06:13,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-17 22:06:13,417 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InvoiceApp
+DEBUG 2019-12-17 22:06:13,423 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-17 22:06:13,667 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-17 22:06:13,867 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-17 22:06:13,932 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-17 22:06:13,932 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-17 22:06:13,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.CreateUserDto
+DEBUG 2019-12-17 22:06:13,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.UserDto
+DEBUG 2019-12-17 22:06:13,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-17 22:06:13,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-17 22:06:13,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Roles.Dto.PermissionDto
+DEBUG 2019-12-17 22:06:13,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-17 22:06:13,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.TenantDto
+INFO  2019-12-17 22:06:24,393 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-12-17 22:06:24,393 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-12-17 22:06:24,644 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 265.086ms 200 
+INFO  2019-12-17 22:06:25,302 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-17 22:06:34,082 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)
+INFO  2019-12-17 22:06:37,070 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) - Validation state: Valid
+INFO  2019-12-17 22:06:37,094 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 6.0537ms.
+INFO  2019-12-17 22:06:37,339 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-12-17 22:06:37,385 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) in 3280.3479ms
+INFO  2019-12-17 22:06:37,394 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-17 22:06:37,449 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13086.1346ms 302 
+INFO  2019-12-17 22:06:37,456 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-12-17 22:06:37,572 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.8988ms 301 
+INFO  2019-12-17 22:06:37,584 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-12-17 22:06:37,885 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.1756ms 200 text/html
+INFO  2019-12-17 22:06:38,054 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-12-17 22:06:38,061 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-12-17 22:06:38,064 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-12-17 22:06:38,066 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-12-17 22:06:38,069 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-12-17 22:06:38,219 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Projects\Projects\Personal Projects\business\InvoiceApp\App\backend\src\InvoiceApp.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-12-17 22:06:38,263 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\Projects\Projects\Personal Projects\business\InvoiceApp\App\backend\src\InvoiceApp.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-12-17 22:06:38,294 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.1519ms 200 application/javascript
+INFO  2019-12-17 22:06:38,330 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-12-17 22:06:38,340 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.1552ms 200 application/javascript
+INFO  2019-12-17 22:06:38,359 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-12-17 22:06:38,385 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 333.8391ms 200 text/css
+INFO  2019-12-17 22:06:38,394 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 329.9925ms 200 application/javascript
+INFO  2019-12-17 22:06:38,424 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-12-17 22:06:38,434 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 380.489ms 200 application/javascript
+INFO  2019-12-17 22:07:03,581 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-12-17 22:07:03,582 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-12-17 22:07:03,587 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-12-17 22:07:03,594 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.5979ms 200 image/png
+INFO  2019-12-17 22:07:03,957 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 378.2259ms 200 application/json;charset=utf-8
+DEBUG 2019-12-18 20:22:46,030 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-18 20:22:47,527 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-18 20:22:47,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.Web.Host.Startup.InvoiceAppWebHostModule, InvoiceApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppWebCoreModule, InvoiceApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppApplicationModule, InvoiceApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppCoreModule, InvoiceApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.EntityFrameworkCore.InvoiceAppEntityFrameworkModule, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:47,579 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-18 20:22:47,778 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:22:47,778 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:22:47,778 [1    ] o.Configuration.LanguageManagementConfig - Converted InvoiceApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:22:47,778 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:22:48,338 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InvoiceApp.EntityFrameworkCore.InvoiceAppDbContext, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:22:50,177 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-18 20:22:50,260 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-18 20:22:50,278 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-18 20:22:50,290 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InvoiceApp
+DEBUG 2019-12-18 20:22:50,301 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-18 20:22:50,589 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-18 20:22:50,789 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-18 20:22:50,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-18 20:22:50,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-18 20:22:50,880 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.CreateUserDto
+DEBUG 2019-12-18 20:22:50,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.UserDto
+DEBUG 2019-12-18 20:22:50,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-18 20:22:50,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-18 20:22:50,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Roles.Dto.PermissionDto
+DEBUG 2019-12-18 20:22:50,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-18 20:22:50,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.TenantDto
+INFO  2019-12-18 20:22:59,654 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-12-18 20:22:59,654 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-12-18 20:22:59,770 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 123.4635ms 200 
+INFO  2019-12-18 20:23:00,159 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-18 20:23:05,079 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)
+INFO  2019-12-18 20:23:06,774 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) - Validation state: Valid
+INFO  2019-12-18 20:23:06,784 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.5294ms.
+INFO  2019-12-18 20:23:07,467 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-12-18 20:23:07,483 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) in 2396.3786ms
+INFO  2019-12-18 20:23:07,487 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-18 20:23:07,514 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-12-18 20:23:07,518 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7876.388ms 302 
+INFO  2019-12-18 20:23:07,560 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.4074ms 301 
+INFO  2019-12-18 20:23:07,644 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-12-18 20:23:07,932 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 288.6914ms 200 text/html
+INFO  2019-12-18 20:23:07,985 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-12-18 20:23:07,999 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-12-18 20:23:08,050 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-12-18 20:23:08,056 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-12-18 20:23:08,082 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-12-18 20:23:08,106 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-12-18 20:23:08,109 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.3133ms 200 text/css
+INFO  2019-12-18 20:23:08,127 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-12-18 20:23:08,141 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-12-18 20:23:08,153 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 163.4987ms 200 application/javascript
+INFO  2019-12-18 20:23:08,156 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 166.0521ms 200 application/javascript
+INFO  2019-12-18 20:23:08,230 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\Projects\Projects\Personal Projects\business\InvoiceApp\App\backend\src\InvoiceApp.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-12-18 20:23:08,232 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.634ms 200 application/javascript
+INFO  2019-12-18 20:23:08,236 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Projects\Projects\Personal Projects\business\InvoiceApp\App\backend\src\InvoiceApp.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-12-18 20:23:08,238 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.0362ms 200 application/javascript
+INFO  2019-12-18 20:23:09,875 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-12-18 20:23:10,122 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 243.8833ms 200 application/json;charset=utf-8
+INFO  2019-12-18 20:24:22,481 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-12-18 20:24:22,500 [29   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:22,522 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.8152ms 204 
+INFO  2019-12-18 20:24:22,529 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-12-18 20:24:22,532 [29   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:22,551 [29   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+WARN  2019-12-18 20:24:22,564 [29   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:24:22,567 [29   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:24:22,573 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 20:24:22,593 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-12-18 20:24:22,596 [29   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:22,601 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-12-18 20:24:23,404 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 800.1909ms.
+INFO  2019-12-18 20:24:23,629 [11   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:24:23,687 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1090.2691ms
+INFO  2019-12-18 20:24:23,689 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 20:24:23,694 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1164.979ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:24:23,717 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 20:24:23,720 [21   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:23,725 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.4407ms 204 
+INFO  2019-12-18 20:24:23,731 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 20:24:23,734 [21   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:23,739 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 20:24:23,751 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)
+INFO  2019-12-18 20:24:23,754 [21   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:24,285 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) - Validation state: Valid
+INFO  2019-12-18 20:24:24,295 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.5989ms.
+INFO  2019-12-18 20:24:24,326 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:24:24,348 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) in 593.6992ms
+INFO  2019-12-18 20:24:24,352 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 20:24:24,356 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 623.7969ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:24:45,167 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-12-18 20:24:45,169 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:45,170 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.5458ms 204 
+INFO  2019-12-18 20:24:45,196 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2019-12-18 20:24:45,200 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:45,206 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core)'
+INFO  2019-12-18 20:24:45,242 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core)
+INFO  2019-12-18 20:24:45,245 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:45,707 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core) with arguments (InvoiceApp.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-12-18 20:24:49,866 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4157.0101ms.
+INFO  2019-12-18 20:24:49,877 [29   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:24:49,882 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core) in 4637.0522ms
+INFO  2019-12-18 20:24:49,884 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core)'
+INFO  2019-12-18 20:24:49,887 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4710.6531ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:24:52,506 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-12-18 20:24:52,509 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:52,513 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.6077ms 204 
+INFO  2019-12-18 20:24:52,523 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-12-18 20:24:52,528 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:52,576 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:24:52,732 [11   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:24:52,735 [11   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-12-18 20:24:52,737 [11   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:24:52,739 [11   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:24:52,745 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 20:24:52,753 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-12-18 20:24:52,755 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:52,759 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-12-18 20:24:52,992 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 231.2719ms.
+INFO  2019-12-18 20:24:53,007 [11   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:24:53,011 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 254.5699ms
+INFO  2019-12-18 20:24:53,013 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 20:24:53,015 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 492.5204ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:24:53,027 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 20:24:53,029 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:53,031 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.925ms 204 
+INFO  2019-12-18 20:24:53,038 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 20:24:53,040 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:53,043 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:24:53,046 [10   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:24:53,048 [10   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:24:53,051 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 20:24:53,060 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)
+INFO  2019-12-18 20:24:53,062 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:53,066 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) - Validation state: Valid
+INFO  2019-12-18 20:24:53,155 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 87.1271ms.
+INFO  2019-12-18 20:24:53,158 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:24:53,166 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) in 102.8006ms
+INFO  2019-12-18 20:24:53,170 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 20:24:53,172 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.3863ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:24:55,444 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOibKoOOriVci7CxglmzDxUTVjm8%2FklIafEU9OIUBRSAX1WxVCzT6lFMuSXlyZnlYT1S4QQcTcSvCaKhETxkptcOI89xNQb2xcHNV7KgEa8AyaD0hMfenOIQcs1FqPt1IZ8mLnKKnZjZL8iWBu93FtyPxNDz8p%2BXhRmkIWpmYGZmXw1s3BoFr1RD%2BGLakRwtKVOkMuyATcEsAG5RVK1T6llnXLc5js5otBcl9rEjZLDywM0SAzE7qdVaHbkkvrnLIa%2BnMXBNMCMDtLw1c8g%2BRfhSXW2bzjZ5QbGikXuP%2FHTV7cRKd7E08hvF%2B1vkyYg4laQ0g6OeO1UOH72BpADQ6vGw%2BD0q2RUAkdWpA%2Foj%2BLse2n5QFLPsLWP1sBQ8Ev1jEISymuHzZR0VQIzJUGTxlz8AER9wXfAuX6v9SrgbtTWWe7N3wpdvGYyM3NGGUnLmtsWJDTSsSz%2Buz3oIpQHdkDS%2FHPy3%2BZt%2BlHQIuELSUvijFcRM3gS6s5fkVpetDzTUQEIoNVfeIEOSyBc8Ecq6p%2FttI  
+INFO  2019-12-18 20:24:55,448 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:55,450 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.816ms 204 
+INFO  2019-12-18 20:24:55,461 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOibKoOOriVci7CxglmzDxUTVjm8%2FklIafEU9OIUBRSAX1WxVCzT6lFMuSXlyZnlYT1S4QQcTcSvCaKhETxkptcOI89xNQb2xcHNV7KgEa8AyaD0hMfenOIQcs1FqPt1IZ8mLnKKnZjZL8iWBu93FtyPxNDz8p%2BXhRmkIWpmYGZmXw1s3BoFr1RD%2BGLakRwtKVOkMuyATcEsAG5RVK1T6llnXLc5js5otBcl9rEjZLDywM0SAzE7qdVaHbkkvrnLIa%2BnMXBNMCMDtLw1c8g%2BRfhSXW2bzjZ5QbGikXuP%2FHTV7cRKd7E08hvF%2B1vkyYg4laQ0g6OeO1UOH72BpADQ6vGw%2BD0q2RUAkdWpA%2Foj%2BLse2n5QFLPsLWP1sBQ8Ev1jEISymuHzZR0VQIzJUGTxlz8AER9wXfAuX6v9SrgbtTWWe7N3wpdvGYyM3NGGUnLmtsWJDTSsSz%2Buz3oIpQHdkDS%2FHPy3%2BZt%2BlHQIuELSUvijFcRM3gS6s5fkVpetDzTUQEIoNVfeIEOSyBc8Ecq6p%2FttI text/plain;charset=UTF-8 0
+INFO  2019-12-18 20:24:55,464 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:55,472 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:24:55,477 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:24:55,480 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:24:55,520 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.558ms 200 application/json
+INFO  2019-12-18 20:24:55,530 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOibKoOOriVci7CxglmzDxUTVjm8%2FklIafEU9OIUBRSAX1WxVCzT6lFMuSXlyZnlYT1S4QQcTcSvCaKhETxkptcOI89xNQb2xcHNV7KgEa8AyaD0hMfenOIQcs1FqPt1IZ8mLnKKnZjZL8iWBu93FtyPxNDz8p%2BXhRmkIWpmYGZmXw1s3BoFr1RD%2BGLakRwtKVOkMuyATcEsAG5RVK1T6llnXLc5js5otBcl9rEjZLDywM0SAzE7qdVaHbkkvrnLIa%2BnMXBNMCMDtLw1c8g%2BRfhSXW2bzjZ5QbGikXuP%2FHTV7cRKd7E08hvF%2B1vkyYg4laQ0g6OeO1UOH72BpADQ6vGw%2BD0q2RUAkdWpA%2Foj%2BLse2n5QFLPsLWP1sBQ8Ev1jEISymuHzZR0VQIzJUGTxlz8AER9wXfAuX6v9SrgbtTWWe7N3wpdvGYyM3NGGUnLmtsWJDTSsSz%2Buz3oIpQHdkDS%2FHPy3%2BZt%2BlHQIuELSUvijFcRM3gS6s5fkVpetDzTUQEIoNVfeIEOSyBc8Ecq6p%2FttI&id=h-AQ_I7wmmVoIU4Rl7t7EQ  
+INFO  2019-12-18 20:24:55,532 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:24:55,536 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:24:55,538 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:24:55,540 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:24:55,721 [10   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-12-18 20:24:55,746 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"h-AQ_I7wmmVoIU4Rl7t7EQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-12-18T20:24:55.7415881+08:00","Properties":{}}
+DEBUG 2019-12-18 20:24:55,787 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: h-AQ_I7wmmVoIU4Rl7t7EQ
+INFO  2019-12-18 20:25:04,615 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:25:04,618 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:25:04,621 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.1495ms 204 
+INFO  2019-12-18 20:25:04,631 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:25:04,633 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:25:04,635 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:25:04,637 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:25:04,640 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:25:04,643 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:25:04,666 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)
+INFO  2019-12-18 20:25:04,667 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:25:04,921 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) with arguments (InvoiceApp.MultiTenancy.Dto.PagedTenantResultRequestDto) - Validation state: Valid
+INFO  2019-12-18 20:25:05,201 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 258.3149ms.
+INFO  2019-12-18 20:25:05,225 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:25:05,235 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) in 564.1703ms
+INFO  2019-12-18 20:25:05,254 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:25:05,270 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 626.202ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:28:55,878 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:28:55,879 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:28:55,881 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.6116ms 204 
+INFO  2019-12-18 20:28:55,894 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:28:55,896 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:28:55,899 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:28:55,902 [11   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:28:55,904 [11   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:28:55,907 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:28:55,912 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)
+INFO  2019-12-18 20:28:55,915 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:28:55,924 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) with arguments (InvoiceApp.MultiTenancy.Dto.PagedTenantResultRequestDto) - Validation state: Valid
+INFO  2019-12-18 20:28:55,945 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.3937ms.
+INFO  2019-12-18 20:28:55,956 [35   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:28:55,959 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) in 43.8635ms
+INFO  2019-12-18 20:28:55,961 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:28:55,964 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.9289ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:29:06,912 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&IsActive=false&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:29:06,914 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:29:06,916 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.3568ms 204 
+INFO  2019-12-18 20:29:06,923 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&IsActive=false&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:29:06,924 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:29:06,926 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:29:06,929 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:29:06,930 [23   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:29:06,932 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:29:06,936 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)
+INFO  2019-12-18 20:29:06,938 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:29:06,945 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) with arguments (InvoiceApp.MultiTenancy.Dto.PagedTenantResultRequestDto) - Validation state: Valid
+INFO  2019-12-18 20:29:06,967 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19.3773ms.
+INFO  2019-12-18 20:29:06,977 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:29:06,979 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) in 41.2409ms
+INFO  2019-12-18 20:29:06,982 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:29:06,984 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.2151ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:32:05,550 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&IsActive=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:32:05,552 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:32:05,554 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.2903ms 204 
+INFO  2019-12-18 20:32:05,561 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?Keyword=&IsActive=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 20:32:05,563 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:32:05,565 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 20:32:05,567 [10   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:32:05,569 [10   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:32:05,571 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:32:05,575 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)
+INFO  2019-12-18 20:32:05,577 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:32:05,582 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) with arguments (InvoiceApp.MultiTenancy.Dto.PagedTenantResultRequestDto) - Validation state: Valid
+INFO  2019-12-18 20:32:05,591 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.2941ms.
+INFO  2019-12-18 20:32:05,598 [47   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:32:05,600 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application) in 23.0673ms
+INFO  2019-12-18 20:32:05,602 [47   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.MultiTenancy.TenantAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 20:32:05,604 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.099ms 200 application/json; charset=utf-8
+DEBUG 2019-12-18 20:32:55,253 [52   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: h-AQ_I7wmmVoIU4Rl7t7EQ
+INFO  2019-12-18 20:32:55,271 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 479740.664ms 101 
+DEBUG 2019-12-18 20:55:57,389 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-18 20:55:57,644 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-18 20:55:57,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.Web.Host.Startup.InvoiceAppWebHostModule, InvoiceApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppWebCoreModule, InvoiceApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppApplicationModule, InvoiceApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppCoreModule, InvoiceApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.EntityFrameworkCore.InvoiceAppEntityFrameworkModule, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:57,666 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-18 20:55:57,757 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:55:57,757 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:55:57,757 [1    ] o.Configuration.LanguageManagementConfig - Converted InvoiceApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:55:57,757 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-18 20:55:58,100 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InvoiceApp.EntityFrameworkCore.InvoiceAppDbContext, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-18 20:55:59,339 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-18 20:55:59,414 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-18 20:55:59,441 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-18 20:55:59,454 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InvoiceApp
+DEBUG 2019-12-18 20:55:59,472 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-18 20:55:59,740 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-18 20:55:59,891 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-18 20:55:59,950 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-18 20:55:59,950 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-18 20:55:59,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.CreateUserDto
+DEBUG 2019-12-18 20:55:59,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.UserDto
+DEBUG 2019-12-18 20:55:59,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-18 20:55:59,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-18 20:55:59,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Roles.Dto.PermissionDto
+DEBUG 2019-12-18 20:55:59,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-18 20:55:59,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.TenantDto
+INFO  2019-12-18 20:56:05,021 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-12-18 20:56:05,021 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-12-18 20:56:05,097 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.1903ms 200 
+INFO  2019-12-18 20:56:05,381 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-18 20:56:08,921 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)
+INFO  2019-12-18 20:56:09,916 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) - Validation state: Valid
+INFO  2019-12-18 20:56:09,922 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.3998ms.
+INFO  2019-12-18 20:56:10,280 [14   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-12-18 20:56:10,293 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) in 1366.8663ms
+INFO  2019-12-18 20:56:10,296 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-18 20:56:10,317 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5304.7444ms 302 
+INFO  2019-12-18 20:56:10,319 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-12-18 20:56:10,510 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 190.1818ms 200 text/html
+INFO  2019-12-18 20:56:10,769 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-12-18 20:56:10,964 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 194.6775ms 200 application/json;charset=utf-8
+INFO  2019-12-18 20:57:39,105 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-12-18 20:57:39,126 [19   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:57:39,136 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.2507ms 204 
+INFO  2019-12-18 20:57:39,143 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-12-18 20:57:39,145 [21   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:57:39,157 [21   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+WARN  2019-12-18 20:57:39,165 [21   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 20:57:39,168 [21   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 20:57:39,171 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 20:57:39,185 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-12-18 20:57:39,187 [21   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:57:39,191 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-12-18 20:57:39,703 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 509.4936ms.
+INFO  2019-12-18 20:57:39,906 [24   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:57:39,947 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 758.9781ms
+INFO  2019-12-18 20:57:39,949 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 20:57:39,952 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 809.8865ms 200 application/json; charset=utf-8
+INFO  2019-12-18 20:57:39,965 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 20:57:39,967 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:57:39,969 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.2139ms 204 
+INFO  2019-12-18 20:57:39,979 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 20:57:39,981 [19   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:57:39,984 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 20:57:39,991 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)
+INFO  2019-12-18 20:57:39,994 [19   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 20:57:40,400 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) - Validation state: Valid
+INFO  2019-12-18 20:57:40,406 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.2979ms.
+INFO  2019-12-18 20:57:40,428 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 20:57:40,441 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) in 447.5053ms
+INFO  2019-12-18 20:57:40,443 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 20:57:40,445 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 466.1963ms 200 application/json; charset=utf-8
+INFO  2019-12-18 21:25:50,329 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-12-18 21:25:50,332 [79   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:50,333 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.3139ms 204 
+INFO  2019-12-18 21:25:50,345 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2019-12-18 21:25:50,348 [81   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:50,354 [81   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core)'
+INFO  2019-12-18 21:25:50,375 [81   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core)
+INFO  2019-12-18 21:25:50,377 [81   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:50,848 [81   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core) with arguments (InvoiceApp.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-12-18 21:25:51,693 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 841.8237ms.
+INFO  2019-12-18 21:25:51,746 [82   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 21:25:51,750 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core) in 1372.6539ms
+INFO  2019-12-18 21:25:51,752 [82   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Controllers.TokenAuthController.Authenticate (InvoiceApp.Web.Core)'
+INFO  2019-12-18 21:25:51,754 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1409.4053ms 200 application/json; charset=utf-8
+INFO  2019-12-18 21:25:53,130 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-12-18 21:25:53,132 [78   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:53,134 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.3188ms 204 
+INFO  2019-12-18 21:25:53,146 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-12-18 21:25:53,149 [79   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:53,203 [79   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 21:25:53,297 [79   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 21:25:53,300 [79   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-12-18 21:25:53,302 [79   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 21:25:53,304 [79   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 21:25:53,306 [79   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 21:25:53,311 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-12-18 21:25:53,315 [79   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:53,318 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-12-18 21:25:53,572 [84   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 252.241ms.
+INFO  2019-12-18 21:25:53,588 [81   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 21:25:53,591 [81   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 277.827ms
+INFO  2019-12-18 21:25:53,593 [81   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-18 21:25:53,596 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 449.7794ms 200 application/json; charset=utf-8
+INFO  2019-12-18 21:25:53,608 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 21:25:53,610 [81   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:53,612 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.1897ms 204 
+INFO  2019-12-18 21:25:53,619 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-12-18 21:25:53,621 [79   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:53,623 [79   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 21:25:53,625 [79   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 21:25:53,628 [79   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 21:25:53,631 [79   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 21:25:53,636 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)
+INFO  2019-12-18 21:25:53,638 [79   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:53,643 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) - Validation state: Valid
+INFO  2019-12-18 21:25:53,685 [85   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 40.1345ms.
+INFO  2019-12-18 21:25:53,687 [85   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 21:25:53,691 [85   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application) in 53.0233ms
+INFO  2019-12-18 21:25:53,693 [85   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Sessions.SessionAppService.GetCurrentLoginInformations (InvoiceApp.Application)'
+INFO  2019-12-18 21:25:53,698 [85   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.6023ms 200 application/json; charset=utf-8
+INFO  2019-12-18 21:25:54,588 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOibKoOOriVci7CxglmzDxUTVjm8%2FklIafEU9OIUBRSAX1WxVCzT6lFMuSXlyZnlYT1S4QQcTcSvCaKhETxkptcOI89xNQb2xcHNV7KgEa8AyaD0hMfenOIQcs1FqPt1IZ8mLnKKnZjZL8iWBu93FtyPxNDz8p%2BXhRmkIWpmYGZmXw1s3BoFr1RD%2BGLakRwtKVOkMuyATcEsAG5RVK1T6llnX5OuxRDQf7%2FSAbVLzhb0sMUVEsjXFu0zvcl%2FZxM29Yw0kIERpiKWe4dssB0vCC2dmbkTFnMn8%2FQvM%2BaTfLDaD4O42HUBV8Q6Sc7BwDU2EK67Ayvt%2B2aiRCwdP030lJkulkQYbd8MDoef2CyE%2BF3Z%2B9qedCTvyfPszBSpUntaDMiF9s8JpfKPRP214mhn0XQmTsjGEAuMrhxxsQjhPa7u%2BU8izm%2BZiHueVZY73hB1EeoTeo8QfPuHstYaz0h9sZ4hhZZGjUFblxKvJVBTBJ8e%2BKxcISIVaJ9tkm6HLZe9VK8rneROvbCoypXx897nzm9cn  
+INFO  2019-12-18 21:25:54,591 [81   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:54,593 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.2736ms 204 
+INFO  2019-12-18 21:25:54,628 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOibKoOOriVci7CxglmzDxUTVjm8%2FklIafEU9OIUBRSAX1WxVCzT6lFMuSXlyZnlYT1S4QQcTcSvCaKhETxkptcOI89xNQb2xcHNV7KgEa8AyaD0hMfenOIQcs1FqPt1IZ8mLnKKnZjZL8iWBu93FtyPxNDz8p%2BXhRmkIWpmYGZmXw1s3BoFr1RD%2BGLakRwtKVOkMuyATcEsAG5RVK1T6llnX5OuxRDQf7%2FSAbVLzhb0sMUVEsjXFu0zvcl%2FZxM29Yw0kIERpiKWe4dssB0vCC2dmbkTFnMn8%2FQvM%2BaTfLDaD4O42HUBV8Q6Sc7BwDU2EK67Ayvt%2B2aiRCwdP030lJkulkQYbd8MDoef2CyE%2BF3Z%2B9qedCTvyfPszBSpUntaDMiF9s8JpfKPRP214mhn0XQmTsjGEAuMrhxxsQjhPa7u%2BU8izm%2BZiHueVZY73hB1EeoTeo8QfPuHstYaz0h9sZ4hhZZGjUFblxKvJVBTBJ8e%2BKxcISIVaJ9tkm6HLZe9VK8rneROvbCoypXx897nzm9cn text/plain;charset=UTF-8 0
+INFO  2019-12-18 21:25:54,633 [78   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:54,641 [78   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 21:25:54,643 [78   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 21:25:54,646 [78   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 21:25:54,683 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.9872ms 200 application/json
+INFO  2019-12-18 21:25:54,755 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOibKoOOriVci7CxglmzDxUTVjm8%2FklIafEU9OIUBRSAX1WxVCzT6lFMuSXlyZnlYT1S4QQcTcSvCaKhETxkptcOI89xNQb2xcHNV7KgEa8AyaD0hMfenOIQcs1FqPt1IZ8mLnKKnZjZL8iWBu93FtyPxNDz8p%2BXhRmkIWpmYGZmXw1s3BoFr1RD%2BGLakRwtKVOkMuyATcEsAG5RVK1T6llnX5OuxRDQf7%2FSAbVLzhb0sMUVEsjXFu0zvcl%2FZxM29Yw0kIERpiKWe4dssB0vCC2dmbkTFnMn8%2FQvM%2BaTfLDaD4O42HUBV8Q6Sc7BwDU2EK67Ayvt%2B2aiRCwdP030lJkulkQYbd8MDoef2CyE%2BF3Z%2B9qedCTvyfPszBSpUntaDMiF9s8JpfKPRP214mhn0XQmTsjGEAuMrhxxsQjhPa7u%2BU8izm%2BZiHueVZY73hB1EeoTeo8QfPuHstYaz0h9sZ4hhZZGjUFblxKvJVBTBJ8e%2BKxcISIVaJ9tkm6HLZe9VK8rneROvbCoypXx897nzm9cn&id=sa6QQqjcHoxQNuGCcMSPDw  
+INFO  2019-12-18 21:25:54,757 [79   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:54,761 [79   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 21:25:54,764 [79   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 21:25:54,765 [79   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 21:25:54,910 [78   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-12-18 21:25:54,949 [78   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"sa6QQqjcHoxQNuGCcMSPDw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-12-18T21:25:54.9420068+08:00","Properties":{}}
+DEBUG 2019-12-18 21:25:54,995 [78   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: sa6QQqjcHoxQNuGCcMSPDw
+INFO  2019-12-18 21:25:58,194 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 21:25:58,196 [81   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:58,198 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.21ms 204 
+INFO  2019-12-18 21:25:58,203 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2019-12-18 21:25:58,205 [78   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:58,207 [78   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-12-18 21:25:58,209 [78   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-12-18 21:25:58,212 [78   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-12-18 21:25:58,215 [78   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Users.UserAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 21:25:58,247 [78   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action InvoiceApp.Users.UserAppService.GetAll (InvoiceApp.Application)
+INFO  2019-12-18 21:25:58,249 [78   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-12-18 21:25:58,525 [78   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Users.UserAppService.GetAll (InvoiceApp.Application) with arguments (InvoiceApp.Users.Dto.PagedUserResultRequestDto) - Validation state: Valid
+INFO  2019-12-18 21:25:58,888 [84   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Users.UserAppService.GetAll (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 361.5916ms.
+INFO  2019-12-18 21:25:58,904 [83   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-18 21:25:58,913 [83   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Users.UserAppService.GetAll (InvoiceApp.Application) in 663.7929ms
+INFO  2019-12-18 21:25:58,915 [83   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Users.UserAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-18 21:25:58,918 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 714.0962ms 200 application/json; charset=utf-8
+DEBUG 2019-12-18 22:19:29,701 [54   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: sa6QQqjcHoxQNuGCcMSPDw
+INFO  2019-12-18 22:19:29,725 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3214966.7246ms 101 
