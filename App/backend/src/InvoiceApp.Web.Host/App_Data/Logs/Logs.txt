@@ -482,3 +482,93 @@ INFO  2019-12-18 21:25:58,915 [83   ] ft.AspNetCore.Routing.EndpointMiddleware -
 INFO  2019-12-18 21:25:58,918 [83   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 714.0962ms 200 application/json; charset=utf-8
 DEBUG 2019-12-18 22:19:29,701 [54   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: sa6QQqjcHoxQNuGCcMSPDw
 INFO  2019-12-18 22:19:29,725 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3214966.7246ms 101 
+DEBUG 2019-12-20 21:32:55,349 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-20 21:32:55,579 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-20 21:32:55,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.Web.Host.Startup.InvoiceAppWebHostModule, InvoiceApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppWebCoreModule, InvoiceApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppApplicationModule, InvoiceApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.InvoiceAppCoreModule, InvoiceApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InvoiceApp.EntityFrameworkCore.InvoiceAppEntityFrameworkModule, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:55,605 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-20 21:32:55,709 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-20 21:32:55,709 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-20 21:32:55,709 [1    ] o.Configuration.LanguageManagementConfig - Converted InvoiceApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-20 21:32:55,709 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-20 21:32:56,058 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InvoiceApp.EntityFrameworkCore.InvoiceAppDbContext, InvoiceApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-20 21:32:57,307 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-20 21:32:57,358 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-20 21:32:57,391 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-20 21:32:57,396 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InvoiceApp
+DEBUG 2019-12-20 21:32:57,400 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-20 21:32:57,633 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-20 21:32:57,794 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-20 21:32:57,839 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2019-12-20 21:32:57,839 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-20 21:32:57,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.CreateUserDto
+DEBUG 2019-12-20 21:32:57,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Users.Dto.UserDto
+DEBUG 2019-12-20 21:32:57,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-20 21:32:57,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-20 21:32:57,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Roles.Dto.PermissionDto
+DEBUG 2019-12-20 21:32:57,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-20 21:32:57,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-20 21:32:57,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InvoiceApp.Customer.CustomerDto
+INFO  2019-12-20 21:33:03,417 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-12-20 21:33:03,417 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-12-20 21:33:03,510 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.7433ms 200 
+INFO  2019-12-20 21:33:03,755 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-20 21:33:08,763 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)
+INFO  2019-12-20 21:33:10,787 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) - Validation state: Valid
+INFO  2019-12-20 21:33:10,797 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.3221ms.
+INFO  2019-12-20 21:33:11,229 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-12-20 21:33:11,260 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host) in 2487.1147ms
+INFO  2019-12-20 21:33:11,267 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Web.Host.Controllers.HomeController.Index (InvoiceApp.Web.Host)'
+INFO  2019-12-20 21:33:11,329 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7915.9408ms 302 
+INFO  2019-12-20 21:33:11,409 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-12-20 21:33:11,474 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.1802ms 301 
+INFO  2019-12-20 21:33:11,482 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-12-20 21:33:11,908 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 426.6616ms 200 text/html
+INFO  2019-12-20 21:33:12,001 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-12-20 21:33:12,004 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-12-20 21:33:12,007 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-12-20 21:33:12,011 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-12-20 21:33:12,016 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-12-20 21:33:12,153 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-12-20 21:33:12,168 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-12-20 21:33:12,179 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Projects\Projects\Personal Projects\business\InvoiceApp\App\backend\src\InvoiceApp.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-12-20 21:33:12,189 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\Projects\Projects\Personal Projects\business\InvoiceApp\App\backend\src\InvoiceApp.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-12-20 21:33:12,195 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.0353ms 200 application/javascript
+INFO  2019-12-20 21:33:12,201 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.4257ms 200 application/javascript
+INFO  2019-12-20 21:33:12,203 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 179.2972ms 200 text/css
+INFO  2019-12-20 21:33:12,208 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184.7416ms 200 application/javascript
+INFO  2019-12-20 21:33:12,212 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-12-20 21:33:12,216 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 203.6784ms 200 application/javascript
+INFO  2019-12-20 21:33:12,600 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-12-20 21:33:12,995 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 396.5848ms 200 application/json;charset=utf-8
+INFO  2019-12-20 21:33:24,723 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Customers/GetAll  
+INFO  2019-12-20 21:33:24,727 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-20 21:33:24,760 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Customers"}. Executing action InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application)
+INFO  2019-12-20 21:33:25,244 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application) with arguments (Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) - Validation state: Valid
+INFO  2019-12-20 21:33:25,340 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 93.8506ms.
+INFO  2019-12-20 21:33:25,372 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-20 21:33:25,393 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application) in 630.8149ms
+INFO  2019-12-20 21:33:25,396 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-20 21:33:25,399 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 676.8884ms 200 application/json; charset=utf-8
+INFO  2019-12-20 21:33:26,425 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Customers/GetAll  
+INFO  2019-12-20 21:33:26,432 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-20 21:33:26,438 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Customers"}. Executing action InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application)
+INFO  2019-12-20 21:33:26,443 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application) with arguments (Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) - Validation state: Valid
+INFO  2019-12-20 21:33:26,450 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.1726ms.
+INFO  2019-12-20 21:33:26,460 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-20 21:33:26,462 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application) in 22.2995ms
+INFO  2019-12-20 21:33:26,465 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'InvoiceApp.Customers.CustomersAppService.GetAll (InvoiceApp.Application)'
+INFO  2019-12-20 21:33:26,469 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.169ms 200 application/json; charset=utf-8

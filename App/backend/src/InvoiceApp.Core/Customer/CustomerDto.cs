@@ -1,12 +1,13 @@
 ﻿using Abp.Application.Services.Dto;
-using Abp.Domain.Entities;
+using Abp.AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace InvoiceApp.Customer
 {
-    public class Customer : Entity<int>
+    [AutoMapFrom(typeof(Customer))]
+    public class CustomerDto : EntityDto<int>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
